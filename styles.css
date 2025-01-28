@@ -21,6 +21,19 @@ body {
     padding: 20px;
 }
 
+/* Logo Container Styling */
+.logo-container {
+    position: absolute; /* Allows precise placement on the page */
+    top: 10px; /* Adjusts vertical placement */
+    left: 10px; /* Adjusts horizontal placement */
+}
+
+/* Logo Image Styling */
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
 /* Heading Styling */
 h1, h2, h3 {
     color: #ffffff;
