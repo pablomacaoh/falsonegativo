@@ -46,6 +46,19 @@ header {
     align-items: center;
     padding-top: 80px; /* Adjust this to match the nav height */
 }
+#about {
+    background-image: url('IMG_0013.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Makes text readable */
+    text-align: center;
+    padding: 50px;
+}
 /* Heading Styling */
 h1, h2, h3 {
     color: #ffffff;
