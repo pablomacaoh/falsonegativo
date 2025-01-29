@@ -23,7 +23,7 @@ body {
 /* Logo Container Styling */
 .logo-container {
     position: absolute; /* Allows precise placement on the page */
-    top: 10px; /* Adjusts vertical placement */
+    top: 30px; /* Adjusts vertical placement */
     left: 10px; /* Adjusts horizontal placement */
 }
 
