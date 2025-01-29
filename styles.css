@@ -10,7 +10,7 @@ body, h1, h2, h3, p, ul, li, a {
 /* Body Styling */
 body {
     font-family: 'Lato', sans-serif; /* Modern and professional font */
-    color: #ffffff;
+    color: #008080;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -46,7 +46,7 @@ header {
     padding-top: 80px; /* Adjust this to match the nav height */
 }
 #about {
-    background-image: url('FN logo.jpg'); /* Path to your image */
+    background-image: url('ilustracionBackground1.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the whole section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
