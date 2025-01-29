@@ -32,7 +32,11 @@ body {
     width: 100px; /* Adjust size as needed */
     height: auto; /* Maintains aspect ratio */
 }
-
+/* Section Styling */
+section {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
 /* Heading Styling */
 h1, h2, h3 {
     color: #ffffff;
