@@ -52,12 +52,11 @@ header {
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
     height: 100vh; /* Full viewport height */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; /* Makes text readable */
     text-align: center;
-    padding: 50px;
     position: relative;
     color: white;
 }
