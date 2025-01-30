@@ -24,6 +24,11 @@ body {
 header {
     padding: 150px 20px;
     min-height: 100vh;
+    background-image: url('/handsTyping.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,14 +36,11 @@ header {
     padding-top: 80px; /* Adjust this to match the nav height */
 }
 #about {
-    background-image: url('/handsTyping.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the whole section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling */
-    background-attachment: fixed;
     width: 100%;
     align-items: center;
+    justify-content: center;
     padding: 100px 10px;
+    text-align: center;
 }
 
 #services {
@@ -50,6 +52,7 @@ header {
     width: 100%;
     padding: 100px 20px;
     align-items: center;
+    text-align: center;
 }
 /* Heading Styling */
 h1, h2, h3 {
