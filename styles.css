@@ -20,6 +20,16 @@ body {
     align-items: center;
     padding: 20px;
 }
+/* Hero Section */
+header {
+    padding: 150px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px; /* Adjust this to match the nav height */
+}
 
 /* Heading Styling */
 h1, h2, h3 {
