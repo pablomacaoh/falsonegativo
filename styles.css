@@ -6,55 +6,6 @@ body, h1, h2, h3, p, ul, li, a {
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body Styling */
-body {
-    font-family: 'Lato', sans-serif; /* Modern and professional font */
-    background: linear-gradient(to bottom right, #1e6f8d, #34a4b6); /* Blue/teal gradient */
-    color: #ffffff;
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-/* Hero Section */
-header {
-    padding: 150px 20px;
-    min-height: 100vh;
-    background-image: url('/handsTyping.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the whole section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling */
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px; /* Adjust this to match the nav height */
-}
-#about {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 10px;
-    text-align: center;
-}
-
-#services {
-    background-image: url('/manHiking.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the whole section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling */
-    background-attachment: fixed;
-    width: 100%;
-    padding: 100px 20px;
-    align-items: center;
-    text-align: center;
-}
-/* Heading Styling */
 h1, h2, h3 {
     color: #ffffff;
     text-align: center;
@@ -155,6 +106,53 @@ footer {
     background: rgba(255, 255, 255, 0.1);
     color: #ffffff;
     font-size: 0.9rem;
+}
+/* Body Styling */
+body {
+    font-family: 'Lato', sans-serif; /* Modern and professional font */
+    background: linear-gradient(to bottom right, #1e6f8d, #34a4b6); /* Blue/teal gradient */
+    color: #ffffff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* Hero Section */
+header {
+    padding: 150px 20px;
+    min-height: 100vh;
+    background-image: url('/handsTyping.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px; /* Adjust this to match the nav height */
+}
+#about {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px;
+    text-align: center;
+}
+
+#services {
+    background-image: url('/manHiking.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100px 20px;
+    align-items: center;
+    text-align: center;
 }
 
 /* Responsive Design */
