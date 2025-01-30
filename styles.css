@@ -31,6 +31,11 @@ header {
     padding-top: 80px; /* Adjust this to match the nav height */
 }
 #about {
+    background-image: url('/handsTyping.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed;
     padding: 100px 20px;
     display: flex;
     align-items: center;
