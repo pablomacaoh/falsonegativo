@@ -36,13 +36,13 @@ header {
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
     background-attachment: fixed;
-    padding: 100px 20px;
+    width: 100%;
+    padding: 100px 10px;
     align-items: center;
 }
 
 #services {
     padding: 100px 20px;
-    display: flex;
     align-items: center;
 }
 /* Heading Styling */
