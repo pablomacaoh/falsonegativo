@@ -1,155 +1,152 @@
-/* Base Styles */
-* {
+/* Professional CSS Stylesheet */
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
+/* Body Styling */
 body {
+    font-family: 'Lato', sans-serif; /* Modern and professional font */
+    background: linear-gradient(to bottom right, #1e6f8d, #34a4b6); /* Blue/teal gradient */
+    color: #ffffff;
     line-height: 1.6;
-}
-
-.full-height {
     min-height: 100vh;
-    padding: 80px 20px 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Navigation */
-.fixed-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    background: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.logo {
-    font-size: 1.5rem;
-    color: #333;
+/* Heading Styling */
+h1, h2, h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Link Styling */
+a {
+    color: #f0e130;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffdd57;
+}
+
+/* Button Styling */
+button {
+    background: #ffffff;
+    color: #1e6f8d;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #f0e130;
+    color: #ffffff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar Styling */
+nav {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
     display: flex;
+    justify-content: center;
     list-style: none;
 }
 
 nav ul li {
-    margin-left: 2rem;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
+    font-size: 1rem;
+    color: #ffffff;
     font-weight: 500;
-    transition: color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav ul li a:hover {
-    color: #ffdd57;
+    color: #f0e130;
 }
 
-/* Section Content */
-.section-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.text-content {
-    flex: 1;
-    padding: 2rem;
-}
-
-.image-container {
-    flex: 1;
-    padding: 2rem;
-}
-
-.image-left {
-    order: -1;
-}
-
-.image-right {
-    order: 2;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-/* Contact Form */
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-button {
-    background: #007bff;
-    color: white;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background: #ffdd57;
+/* Footer Styling */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 0.9rem;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .section-content {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    nav ul {
         flex-direction: column;
     }
 
-    .image-container {
-        order: 0;
-        margin-bottom: 2rem;
-    }
-
     nav ul li {
-        margin-left: 1rem;
+        margin: 10px 0;
     }
-
-    .full-height {
-        padding: 60px 10px 10px;
+     #about {
+        flex-direction: column; /* Stacks text and image vertically */
+        text-align: center;
     }
 }
-
