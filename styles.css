@@ -37,7 +37,6 @@ header {
     background-repeat: no-repeat; /* Prevents tiling */
     background-attachment: fixed;
     width: 100%;
-    padding: 100px 10px;
     align-items: center;
 }
 
