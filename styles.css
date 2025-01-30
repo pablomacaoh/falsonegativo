@@ -30,7 +30,17 @@ header {
     align-items: center;
     padding-top: 80px; /* Adjust this to match the nav height */
 }
+#about {
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
 
+#services {
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
 /* Heading Styling */
 h1, h2, h3 {
     color: #ffffff;
