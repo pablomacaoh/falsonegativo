@@ -4,53 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falso Negativo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-  <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre nosotros</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
-    </nav>
-    <!-- Hero Section -->
-    <header id="home">
-        <h1>Falso Negativo</h1>
-        <p>Ayudamos a la digitalización de empresas en Latinoamerica</p>
+
+    <header class="header">
+        <h1><span class="overline">Falso</span> :: <span class="custom-underline">Negativo</span></h1>
+        <h2>Ayudamos empresas de todos tamaños en su camino de transformacion digital</h2>
     </header>
-
-    <!-- About Section -->
-    <section id="about" class="boxed-heading">
-        <h2>Sobre nosotros</h2>
-        <br>
-        <p>Ayudamos a empresas en su camino a la digitalización. Nos especializamos en integración de sistemas, herramientas de SaaS y conexiones de WhatsApp para ventas.</p>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about" class="split-section">
+        <div class="text-container boxed-heading">
+            <h2>Sobre <span style="color: rgba(203, 125, 232, 0.929)">Nosotros</span></h2>
+            <p>Habiendo trabajado en Meta en posiciones de ventas, partnerships y WhatsApp, en Google partnerships y en ventas en Apple,
+            contamos con más de 12 años de experiencia en digitalización de empresas</p>   
+        </div>
+        <div class="image-container">
+            <img src="./images/iphoneLight.jpg" alt="oceano">
+        </div>
     </section>
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Nuestros servicios</h2>
-        <br>
-        <ul>
-            <li>Estrategia digital</li>
-            <li>Consultoría de sistemas SaaS y evaluacion de herramientas</li>
-            <li>Integración de sistemas</li>
-            <li>Asesoría sobre implementación de WhatsApp en empresas</li>
-            <li>Asesoría sobre marketing digital</li>
-        </ul>
+    <section id="services" class="split-section">
+        <div class="image-container">
+            <img src="./images/cat.jpg" alt="A beautiful view">
+        </div>
+        <div class="text-container boxed-heading">
+            <h2>Nuestros <span style="color: rgba(186, 98, 218, 0.929)">Servicios</span></h2>
+            <lu>
+                <li>Estrategia digital</li>
+                <li>Consultoría de sistemas SaaS y evaluacion de herramientas</li>
+                <li>Integración de sistemas</li>
+                <li>Asesoría sobre implementación de WhatsApp en empresas</li>
+                <li>Asesoría sobre marketing digital</li>
+            </lu>
+        </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
         <h2>Contacto</h2>
-        <br>
-        <p>Email: pablo@falsonegativo.com</p>
+        <p style="color: rgba(203, 125, 232, 0.929)">Email: pablo@falsonegativo.com</p>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Falso Negativo. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
