@@ -8,7 +8,7 @@
   /* Page-wide Styling */
 body {
     font-family: 'lato', sans-serif;
-    background: linear-gradient(to bottom, #011211cd, #8dd4dc);
+    background: linear-gradient(to bottom left, #0d0112cd, #747ab4);
     color: white;
     text-align: center;
     line-height: 1.6;
@@ -227,7 +227,7 @@ footer {
   
     .image-container,
     .text-container {
-      max-width: 100%;
+      max-width: 80%;
     }
   }
   
