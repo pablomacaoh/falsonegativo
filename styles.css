@@ -34,7 +34,7 @@ h1, h2, h3 {
   /* Header */
 header {
     padding: 400px 20px;
-    background-image: url('./images/black-stick.jpg');  /*Path to your image */
+    background-image: url('./black-stick.jpg');  /*Path to your image */
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
     background-size: cover; /* Ensures the image covers the whole section */
     background-position: center; /* Centers the image */
