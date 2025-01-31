@@ -68,7 +68,7 @@ button:hover {
 nav {
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px 20px;
+    padding: 20px 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -83,7 +83,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 10px 15px;
 }
 
 nav ul li a {
@@ -122,9 +122,9 @@ body {
 }
 /* Hero Section */
 header {
-    padding: 150px 20px;
+    padding: 100px 20px;
     min-height: 100vh;
-    background-image: url('/handsTyping.jpg'); /* Path to your image */
+    background-image: url('/Background1.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the whole section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
@@ -144,14 +144,19 @@ header {
 }
 
 #services {
-    background-color: darkblue;
     width: 100%;
-    padding: 100px 20px;
     align-items: center;
-    text-align: center;
     justify-content: center;
+    padding: 100px 20px;
+    text-align: center;
 }
 
+.boxed-heading {
+    display: inline-block; /* Makes it fit around the text */
+    padding: 10px; /* Adds space inside the box */
+    border: 2px solid white; /* Creates a border around the text */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+  }
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
@@ -174,7 +179,6 @@ header {
         margin: 10px 0;
     }
      #about {
-        flex-direction: column; /* Stacks text and image vertically */
         text-align: center;
     }
 }
